@@ -1,2 +1,2 @@
-# assam
+# .assamDomain
 Register Domain .assam on Tea Testnet
