@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.assam Domain</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assets/favicon.png">
+    
+    <!-- Primary Meta Tags -->
+    <meta name="title" content=".assam Domain - Claim Your Domain Identity">
+    <meta name="description" content="Take part in the assam-tea testnet and secure your unique domain identity in the crypto ecosystem.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://assamdomain.vercel.app/">
+    <meta property="og:title" content=".assam Domain - Claim Your Domain Identity">
+    <meta property="og:description" content="Take part in the assam-tea testnet and secure your unique domain identity in the crypto ecosystem.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://assamdomain.vercel.app/">
+    <meta property="twitter:title" content=".assam Domain - Claim Your Domain Identity">
+    <meta property="twitter:description" content="Take part in the assam-tea testnet and secure your unique domain identity in the crypto ecosystem.">
+    
+    <!-- Resources -->
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <header class="header">
+            <div class="brand-section">
+                <a href="/" class="brand-link">
+                    <img src="./assets/tealogo.svg" alt="Tea Logo" class="brand-logo">
+                </a>
+                <div class="vertical-divider"></div>
+                <div class="social-icons">
+                    <a href="https://discord.com/users/1094201919876124753" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <img src="./assets/discord.png" alt="Discord" class="social-icon">
+                    </a>
+                    <a href="https://t.me/gladionz" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <img src="./assets/tele.png" alt="Telegram" class="social-icon">
+                    </a>
+                </div>
+            </div>
+            
+            <div class="wallet-section">
+                <button class="connect-button" id="connectButton">Connect</button>
+                <div class="wallet-info" id="walletInfo"></div>
+            </div>
+        </header>
+
+        <main class="content-section">
+            <div class="domain-card">
+                <h1 class="card-title">.assam Domain</h1>
+                <p class="card-subtitle">Mint Your Identity with the .assam Domain</p>
+                
+                <div class="search-container">
+                    <div class="input-wrapper">
+                        <input type="text" id="domainInput" class="search-input" placeholder="Search your domain name">
+                        <span class="domain-suffix">.assam</span>
+                    </div>
+                    <button class="check-button" id="checkButton">Check</button>
+                </div>
+                
+                <div class="domain-status" id="domainStatus"></div>
+                <button class="claim-button" id="claimButton" disabled>Claim Now</button>
+                <p class="price-tag">20 $TEA/Domain</p>
+            </div>
+
+            <section class="recent-section">
+                <h2 class="recent-title">Recent Registered .assam Domain</h2>
+                <div class="recent-container">
+                    <div class="carousel-wrapper">
+                        <button class="carousel-button" id="prevButton">←</button>
+                        <div class="carousel-viewport">
+                            <div class="domains-grid" id="recentDomains"></div>
+                        </div>
+                        <button class="carousel-button" id="nextButton">→</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="info-section">
+                <div>
+                    <h3 class="info-title">Your Identity, Your .assam Domain!</h3>
+                    <p class="info-text">
+                        Bring your connection to Assam to life with a domain that speaks your story.
+                        Whether you're building a brand, showcasing your talent, or creating a
+                        platform for the community, a .assam domain sets you apart.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="info-title">Why Register a .assam Domain?</h3>
+                    <p class="info-text">
+                        🌟 Celebrate Your Roots: Show the world your pride in Assam's heritage and culture.<br><br>
+                        🌍 Build Local Connections: Attract audiences who value authenticity and local identity.<br><br>
+                        💼 Perfect for Everyone: Businesses, creators, or anyone looking to stand out online.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="info-title">Take the First Step Today!</h3>
+                    <p class="info-text">
+                        Domains are limited—don't wait until it's too late. Register your .assam
+                        domain now and make your mark in the digital world.
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            © 2025 assamdomain. All Rights Reserved.
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
